@@ -10,7 +10,7 @@ def raiz():
     # Devolvemos um dicionario. O FastAPI transforma em JSON sozinho.
     return {"mensagem": "A API do meu projeto esta no ar!"}
 
-@app.get("/agendamentos")
+@app.get("/agendamentos2")
 def listar_agendamentos():
     return [
         {"id": 1, "cliente": "Ana", "servico": "corte", "status": "agendado"},
